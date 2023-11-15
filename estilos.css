@@ -35,6 +35,7 @@ main{
     background-color: rgba(0, 0, 0, 0.582);
     padding: 20px;
     border: 3px solid wheat;
+    margin: 30px;
 }
 
 h1{
@@ -45,9 +46,9 @@ h1{
 h2{
     color: black;
     text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .call p{
@@ -98,12 +99,73 @@ font-weight: bold;
 
 .nosotros .nright{
     padding: 20px;
-    width: 100;
+    width: 100%;
 }
 
 .nright h3{
     color:#333;
     font-size: 30px;
+}
+
+.about-section {
+    padding: 30px;
+    text-align: center;
+    text-align: justify;
+    background-color: rgba(131, 128, 128, 0.494);
+    color:#333;
+}
+
+section{
+    height: auto;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card{
+    height: 480px;
+    width: 230px;
+    background-color: #fff;
+    text-align: center;
+    border: 4px solid #333;
+    border-radius: 10px;
+}
+
+
+.card-title{
+    color:#333;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-subtitle{
+    margin-bottom: 10px;
+}
+
+.card-desc{
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgba(1, 1, 37, 0.808);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
 }
 
 .galeria{
@@ -168,7 +230,7 @@ input[type=text],[type=email], textarea {
 }
 
 input[type=submit] {
-    background-color: #3415bd;
+    background-color: #16075c;
     color: white;
     padding: 10px;
     border: none;
@@ -177,20 +239,17 @@ input[type=submit] {
 
 .contacto{
     display: flex;
-    justify-content: space-between;
-    margin: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
-.location {
-    text-align: right;
-    width: 50%;
+.contacto .formulario{
+    width: 100%;
 }
-.formulario{
-    float: left;
-    width: 50%;
-    margin-top: 10px;
-    padding: 20px;
+.contacto .location {
+    width: 100%;
+    margin: 40px;
 }
 
 footer{
@@ -217,6 +276,14 @@ footer .redes a{
 }
 
 
+/* inicio de media queries*/
+
+@media only screen and (min-width: 480px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 200px);
+    }
+}
 
 @media only screen and (min-width: 768px){
     .nosotros .nleft{
@@ -225,18 +292,14 @@ footer .redes a{
     .nosotros .nright{
         width: 50%;
     }
-
-    .contacto .nleft{
+    .contacto .formulario{
         width: 50%;
     }
-    .contacto .nright{
+    .contacto .location{
         width: 50%;
-    }
-    .galeria{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(4, 200px);
-    }
 }
+}
+
 
 @media only screen and (min-width:768px) and (max-width:1023px){
     .galeria{
@@ -278,7 +341,7 @@ footer .redes a{
 
     @media only screen and (min-width:1024px) {
         .galeria{
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: 200px 200px;
+            grid-template-columns: repeat(2fr, 2fr);
+            grid-template-rows: repeat(4, 200px);
         }
     }
