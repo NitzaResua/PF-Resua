@@ -158,8 +158,6 @@ font-weight: bold;
     background-image: url(Imagenes/proy8.jpg);
 }
 
-
-
 input[type=text],[type=email], textarea {
     width: 100%;
     padding: 12px;
@@ -177,23 +175,22 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.contact h2 {
-    margin-inline-start: 40px;
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
 }
 
-.contact p {
-    text-align: left;
-    margin-inline-start: 40px;
+.location {
+    text-align: right;
+    width: 50%;
 }
-.column-contacto {
+.formulario{
     float: left;
     width: 50%;
-    margin-top: 6px;
+    margin-top: 10px;
     padding: 20px;
-}
-
-.row{
-    margin-inline-start: 40px;
 }
 
 footer{
@@ -277,6 +274,7 @@ footer .redes a{
         grid-column: 2/4;
         grid-row: 4/5;
     }
+}
 
     @media only screen and (min-width:1024px) {
         .galeria{
