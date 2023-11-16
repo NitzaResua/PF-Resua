@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -9,17 +9,18 @@
     src: url(./Font/DINPro\ Light.otf);
 }
 
-body{
-    font-family:dinlight, Verdana, Geneva, Tahoma, sans-serif;
-    color:#333;
+body {
+    font-family: dinlight, Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
     font-size: 1.2rem;
     line-height: 1.5em;
 }
-.navbar{
+
+.navbar {
     background-color: rgba(1, 1, 37) !important;
 }
 
-main{
+main {
     height: 500px;
     background-image: url(Imagenes/fondo.jpg);
     background-size: cover;
@@ -31,19 +32,19 @@ main{
 }
 
 
-.call{
+.call {
     background-color: rgba(0, 0, 0, 0.582);
     padding: 20px;
     border: 3px solid wheat;
     margin: 30px;
 }
 
-h1{
+h1 {
     color: white;
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     color: black;
     text-align: center;
     margin-top: 20px;
@@ -51,11 +52,11 @@ h2{
     font-weight: bold;
 }
 
-.call p{
+.call p {
     margin-bottom: 20px;
 }
 
-.call a{
+.call a {
     background-color: rgb(1, 1, 37);
     color: white;
     text-decoration: none;
@@ -66,30 +67,30 @@ h2{
     background-color: rgba(131, 128, 128, 0.494);
     margin: 0;
     padding: 20px;
-    
-} 
 
-.banner h2{
-    margin:20px;
-    color:rgb(27, 27, 27);
+}
+
+.banner h2 {
+    margin: 20px;
+    color: rgb(27, 27, 27);
     font-weight: bold;
     text-align: center;
 }
 
-.banner p{
-    margin:20px;
-    color:rgb(27, 27, 27);
+.banner p {
+    margin: 20px;
+    color: rgb(27, 27, 27);
     text-align: center;
 }
 
-.nosotros{
+.nosotros {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
     text-align: center;
 }
 
-.nosotros .nleft{
+.nosotros .nleft {
     background-image: url(Imagenes/fondoo.jpg);
     background-size: cover;
     background-position: center;
@@ -97,13 +98,13 @@ h2{
     width: 100%;
 }
 
-.nosotros .nright{
+.nosotros .nright {
     padding: 20px;
     width: 100%;
 }
 
-.nright h3{
-    color:#333;
+.nright h3 {
+    color: #333;
     font-size: 30px;
 }
 
@@ -112,10 +113,10 @@ h2{
     text-align: center;
     text-align: justify;
     background-color: rgba(131, 128, 128, 0.494);
-    color:#333;
+    color: #333;
 }
 
-section{
+section {
     height: auto;
     width: 100%;
     background-color: #222;
@@ -127,49 +128,47 @@ section{
     padding: 30px;
 }
 
-.card{
-    height: 480px;
-    width: 230px;
+.card {
+    height: auto;
+    width: 350px;
     background-color: #fff;
     text-align: center;
     border: 4px solid #333;
-    border-radius: 10px;
 }
 
-
-.card-title{
-    color:#333;
+.card-title {
+    color: #333;
     font-size: 30px;
     font-weight: bold;
 }
 
-.card-subtitle{
+.card-subtitle {
     margin-bottom: 10px;
 }
 
-.card-desc{
+.card-desc {
     padding: 10px;
 }
 
 .button {
     border: none;
-    outline: 0;
     display: inline-block;
-    padding: 8px;
     color: white;
     background-color: rgba(1, 1, 37, 0.808);
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
 }
 
 .button:hover {
     background-color: #555;
 }
 
-.galeria{
-    background-color:rgba(51, 51, 51, 0.274);
+.galeria {
+    background-color: rgba(51, 51, 51, 0.274);
     height: auto;
     width: 100%;
     display: grid;
@@ -179,7 +178,7 @@ section{
     grid-gap: 20px;
 }
 
-.item{
+.item {
     border: 3px solid black;
     border-radius: 10px;
     background-size: cover;
@@ -188,39 +187,83 @@ section{
     filter: grayscale(100%);
 }
 
-.item:hover{
+.item:hover {
     transform: scale(0.9);
     filter: grayscale(0%);
 }
 
-.item1{
+.item1 {
     background-image: url(Imagenes/proy1.jpg);
-    
+
 }
-.item2{
+
+.item2 {
     background-image: url(Imagenes/proy2.jpg);
-    
+
 }
-.item3{
+
+.item3 {
     background-image: url(Imagenes/proy3.jpg);
 }
-.item4{
+
+.item4 {
     background-image: url(Imagenes/proy4.jpg);
 }
-.item5{
+
+.item5 {
     background-image: url(Imagenes/proy5.jpg);
 }
-.item6{
+
+.item6 {
     background-image: url(Imagenes/proy6.jpg);
 }
-.item7{
+
+.item7 {
     background-image: url(Imagenes/proy7.jpg);
 }
-.item8{
+
+.item8 {
     background-image: url(Imagenes/proy8.jpg);
 }
 
-input[type=text],[type=email], textarea {
+.clientes-section p {
+    text-align: center;
+}
+
+.card-group .card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-color: #333;
+    border-radius: 10px;
+}
+
+.card-proy {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.servicios p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.card-serv{
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type=text],
+[type=email],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -237,39 +280,40 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.contacto{
+.contacto {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.contacto .formulario{
+.contacto .formulario {
     width: 100%;
 }
+
 .contacto .location {
     width: 100%;
     margin: 40px;
 }
 
-footer{
-    background-color:rgb(1, 1, 37);
+footer {
+    background-color: rgb(1, 1, 37);
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-.footer p{
+.footer p {
     font-size: 25px;
     color: white;
 }
 
-footer .redes{
+footer .redes {
     margin-top: 15px;
     letter-spacing: 10px;
 }
 
-footer .redes a{
+footer .redes a {
     color: wheat;
     text-decoration: none;
     font-size: 30px;
@@ -278,70 +322,89 @@ footer .redes a{
 
 /* inicio de media queries*/
 
-@media only screen and (min-width: 480px){
-    .galeria{
+@media only screen and (min-width: 480px) {
+    .galeria {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
 }
 
-@media only screen and (min-width: 768px){
-    .nosotros .nleft{
+@media only screen and (min-width: 768px) {
+    .nosotros .nleft {
         width: 50%;
     }
-    .nosotros .nright{
+
+    .nosotros .nright {
         width: 50%;
     }
-    .contacto .formulario{
+
+    .servicios .serv1 {
         width: 50%;
     }
-    .contacto .location{
+
+    .servicios .serv2 {
         width: 50%;
-}
+    }
+
+    .contacto .formulario {
+        width: 50%;
+    }
+
+    .contacto .location {
+        width: 50%;
+    }
 }
 
 
-@media only screen and (min-width:768px) and (max-width:1023px){
-    .galeria{
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .galeria {
         grid-template-columns: repeat(3, 1fr);
     }
-    .item1{
+
+    .item1 {
         grid-column: 1/3;
         grid-row: 1/2;
     }
-    .item2{
+
+    .item2 {
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .item3{
+
+    .item3 {
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .item4{
+
+    .item4 {
         grid-column: 2/4;
         grid-row: 2/3;
     }
-    .item5{
+
+    .item5 {
         grid-column: 1/3;
         grid-row: 3/4;
     }
-    .item6{
+
+    .item6 {
         grid-column: 3/4;
         grid-row: 3/4;
     }
-    .item7{
+
+    .item7 {
         grid-column: 1/2;
         grid-row: 4/5;
     }
-    .item8{
+
+    .item8 {
         grid-column: 2/4;
         grid-row: 4/5;
     }
 }
 
-    @media only screen and (min-width:1024px) {
-        .galeria{
-            grid-template-columns: repeat(2fr, 2fr);
-            grid-template-rows: repeat(4, 200px);
-        }
+@media only screen and (min-width:1024px) {
+    .galeria {
+        grid-template-columns: repeat(2fr, 2fr);
+        grid-template-rows: repeat(4, 200px);
     }
+}
