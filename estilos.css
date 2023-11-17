@@ -20,6 +20,7 @@ body {
     background-color: rgba(1, 1, 37) !important;
 }
 
+
 main {
     height: 500px;
     background-image: url(Imagenes/fondo.jpg);
@@ -230,6 +231,20 @@ section {
     text-align: center;
 }
 
+.feat{
+    border: 5px solid #333;
+}
+
+.feat h4{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.feat img{
+    object-fit: cover;
+}
+
 .card-group .card {
     display: flex;
     flex-wrap: wrap;
@@ -250,7 +265,6 @@ section {
     flex-wrap: wrap;
 }
 
-
 .servicios p{
     text-align: justify;
     padding: 20px;
@@ -258,8 +272,16 @@ section {
 
 .card-serv{
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    margin: 20px;
     align-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card-serv-title{
+    font-weight: bold;
 }
 
 input[type=text],
