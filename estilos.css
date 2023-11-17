@@ -20,7 +20,6 @@ body {
     background-color: rgba(1, 1, 37) !important;
 }
 
-
 main {
     height: 500px;
     background-image: url(Imagenes/fondo.jpg);
@@ -31,7 +30,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
 
 .call {
     background-color: rgba(0, 0, 0, 0.582);
@@ -68,7 +66,6 @@ h2 {
     background-color: rgba(131, 128, 128, 0.494);
     margin: 0;
     padding: 20px;
-
 }
 
 .banner h2 {
@@ -169,7 +166,7 @@ section {
 }
 
 .galeria {
-    background-color: rgba(51, 51, 51, 0.274);
+    background-color: #222;
     height: auto;
     width: 100%;
     display: grid;
@@ -180,7 +177,7 @@ section {
 }
 
 .item {
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -232,7 +229,9 @@ section {
 }
 
 .feat{
-    border: 5px solid #333;
+    border: 3px solid rgba(94, 92, 92, 0.8);
+    border-radius: 5px;
+
 }
 
 .feat h4{
@@ -243,21 +242,6 @@ section {
 
 .feat img{
     object-fit: cover;
-}
-
-.card-group .card {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-color: #333;
-    border-radius: 10px;
-}
-
-.card-proy {
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
 }
 
 .servicios {
@@ -303,22 +287,6 @@ input[type=submit] {
     cursor: pointer;
 }
 
-.contacto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.contacto .formulario {
-    width: 100%;
-}
-
-.contacto .location {
-    width: 100%;
-    margin: 40px;
-}
-
 footer {
     background-color: rgb(1, 1, 37);
     color: white;
@@ -344,7 +312,6 @@ footer .redes a {
 
 
 /* inicio de media queries*/
-
 @media only screen and (min-width: 480px) {
     .galeria {
         grid-template-columns: 1fr 1fr;
@@ -366,14 +333,6 @@ footer .redes a {
     }
 
     .servicios .serv2 {
-        width: 50%;
-    }
-
-    .contacto .formulario {
-        width: 50%;
-    }
-
-    .contacto .location {
         width: 50%;
     }
 }
