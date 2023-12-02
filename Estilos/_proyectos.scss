@@ -10,7 +10,7 @@
 }
 
 .item {
-    border: 2px solid black;
+    border: 2px solid $color-negro;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -61,12 +61,12 @@
 }
 
 .feat {
-    border: 3px solid #333;
+    border: 3px solid $color-gris;
     border-radius: 5px;
 
     h4 {
-        text-align: j;
-        color: black;
+        text-align: justify;
+        color: $color-negro;
         font-size: 30px;
     }
 
