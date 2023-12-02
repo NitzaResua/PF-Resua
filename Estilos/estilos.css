@@ -163,16 +163,6 @@ section {
   background-color: #555;
 }
 
-.servicios {
-  display: flex;
-  flex-wrap: wrap;
-}
-.servicios p {
-  text-align: justify;
-  padding: 20px;
-  font-size: 15px;
-}
-
 .card-serv {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -194,6 +184,18 @@ section {
   font-size: 15px;
 }
 
+/* inicio de Servicios*/
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+}
+.servicios p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 15px;
+}
+
+/* inicio de Proyectos*/
 .galeria {
   background-color: #222;
   height: auto;
@@ -255,25 +257,7 @@ section {
   padding: 15px;
 }
 
-.feat {
-  border: 3px solid #333;
-  border-radius: 5px;
-}
-.feat h4 {
-  text-align: justify;
-  color: #000000;
-  font-size: 30px;
-}
-.feat img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.feat p {
-  font-size: 15px;
-  text-align: justify;
-}
-
-/* inicio de ontactoa*/
+/* inicio de Contactos*/
 input[type=text],
 [type=email],
 textarea {

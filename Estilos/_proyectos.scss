@@ -1,3 +1,5 @@
+/* inicio de Proyectos*/ 
+
 .galeria {
     background-color: #222;
     height: auto;
@@ -58,24 +60,4 @@
 .clientes-section p {
     text-align: justify;
     padding: 15px;
-}
-
-.feat {
-    border: 3px solid $color-gris;
-    border-radius: 5px;
-
-    h4 {
-        text-align: justify;
-        color: $color-negro;
-        font-size: 30px;
-    }
-
-    img {
-        object-fit: cover;
-    }
-
-    p {
-        font-size: 15px;
-        text-align: justify;
-    }
 }
