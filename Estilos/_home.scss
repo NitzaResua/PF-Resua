@@ -1,0 +1,66 @@
+.navbar {
+    background-color: rgba(1, 1, 37) !important;
+}
+
+main {
+    height: 500px;
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 20px;
+    border: 3px solid wheat;
+    margin: 30px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.call {
+    p {
+        margin-bottom: 20px;
+    }
+
+    a {
+        background-color: rgb(1, 1, 37);
+        color: white;
+        text-decoration: none;
+        padding: 10px 30px;
+    }
+}
+
+.banner {
+    background-color: rgba(131, 128, 128, 0.494);
+    margin: 0;
+    padding: 20px;
+
+    h2 {
+        margin: 20px;
+        color: rgb(27, 27, 27);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        margin: 20px;
+        color: rgb(27, 27, 27);
+        text-align: center;
+    }
+}

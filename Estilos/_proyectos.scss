@@ -1,0 +1,81 @@
+.galeria {
+    background-color: #222;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 20px;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.9s;
+    filter: grayscale(100%);
+
+    &:hover {
+        transform: scale(0.9);
+        filter: grayscale(0%);
+    }
+}
+
+.item1 {
+    background-image: url(../Imagenes/proy1.jpg);
+}
+
+.item2 {
+    background-image: url(../Imagenes/proy2.jpg);
+}
+
+.item3 {
+    background-image: url(../Imagenes/proy3.jpg);
+}
+
+.item4 {
+    background-image: url(../Imagenes/proy4.jpg);
+}
+
+.item5 {
+    background-image: url(../Imagenes/proy5.jpg);
+}
+
+.item6 {
+    background-image: url(../Imagenes/proy6.jpg);
+}
+
+.item7 {
+    background-image: url(../Imagenes/proy7.jpg);
+}
+
+.item8 {
+    background-image: url(../Imagenes/proy8.jpg);
+}
+
+.clientes-section p {
+    text-align: justify;
+    padding: 15px;
+}
+
+.feat {
+    border: 3px solid #333;
+    border-radius: 5px;
+
+    h4 {
+        text-align: j;
+        color: black;
+        font-size: 30px;
+    }
+
+    img {
+        object-fit: cover;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: justify;
+    }
+}
