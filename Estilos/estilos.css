@@ -44,11 +44,11 @@ h1 {
 }
 
 h2 {
-  color: #000000;
+  font-weight: bold;
   text-align: center;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: bold;
 }
 
 .call p {
@@ -67,10 +67,10 @@ h2 {
   padding: 20px;
 }
 .banner h2 {
-  margin: 20px;
-  color: rgb(27, 27, 27);
   font-weight: bold;
   text-align: center;
+  margin: 20px;
+  color: rgb(27, 27, 27);
 }
 .banner p {
   margin: 20px;
@@ -106,7 +106,6 @@ h2 {
 /* inicio de Nosotros*/
 .about-section {
   padding: 30px;
-  text-align: center;
   text-align: justify;
   background-color: rgba(131, 128, 128, 0.494);
   color: #333;

@@ -2,6 +2,11 @@
     text-decoration: none;
     color: $color-blanco;
 }
+
+    @mixin subtitulo{
+    font-weight: bold;
+    text-align: center;
+}
 /* inicio de Home*/ 
 .navbar {
     background-color: $color-azul !important;
@@ -31,11 +36,10 @@ h1 {
 }
 
 h2 {
+    @include subtitulo;
     color: $color-negro;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .call {
@@ -56,10 +60,9 @@ h2 {
     padding: 20px;
 
     h2 {
+        @include subtitulo;
         margin: 20px;
         color: rgb(27, 27, 27);
-        font-weight: bold;
-        text-align: center;
     }
 
     p {
