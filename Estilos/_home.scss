@@ -1,13 +1,14 @@
-@mixin enlaces{
+@mixin enlaces {
     text-decoration: none;
     color: $color-blanco;
 }
 
-    @mixin subtitulo{
+@mixin subtitulo {
     font-weight: bold;
     text-align: center;
 }
-/* inicio de Home*/ 
+
+/* inicio de Home*/
 .navbar {
     background-color: $color-azul !important;
 }
@@ -17,7 +18,7 @@ main {
     background-image: url(../Imagenes/fondo.jpg);
     background-size: cover;
     background-position: center;
-    color:$color-blanco;
+    color: $color-blanco;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +84,7 @@ h2 {
         background-image: url(../Imagenes/fondoo.jpg);
         background-size: cover;
         background-position: center;
-        height: 330px;
+        height: 350px;
         width: 100%;
     }
 
@@ -97,11 +98,10 @@ h2 {
 
 .nright h3 {
     color: $color_gris;
-    font-size: 20px;
     font-weight: bold;
+    padding: 13px;
 }
 
-.nright p {
-    padding: 20px;
-    font-size: 20px;
+.nright p{
+    font-size: 18px;
 }
